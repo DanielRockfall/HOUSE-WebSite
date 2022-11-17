@@ -45,11 +45,27 @@
 				</p>
 
 				<div class="first-screen__btn">
-					<button> Request an appointment <img src="./img/icon/cane-btn.png" alt=""> </button>
+					<button data-modal-target="#modal"> Request an appointment <img src="./img/icon/cane-btn.png" alt=""> </button>
 				</div> 
 			</div>
 		</div>
 	</section>
+
+
+
+	<div class="modal" id="modal">
+		<div class="modal-header">
+		  <div class="modal-header__title">I WILL CALL YOU</div>
+		  <button data-close-button class="close-button">&times;</button>
+		</div>
+		<div class="modal-body">
+			<img class="modal-body__img" src="./img/content/house-form-img.png" alt="">
+		  <form action="" class="appointment-form">
+			<input type="text">
+		  </form>
+		</div>
+	  </div>
+	  <div id="overlay"></div>
 
 
 	<section class="house-team">
@@ -103,5 +119,7 @@
 			</div>
 		</div>
 	</section>
+
+	<script src="./js/script.js"></script>
 </body>
 </html>
