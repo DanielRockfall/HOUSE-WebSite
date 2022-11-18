@@ -53,19 +53,50 @@
 
 
 
-	<div class="modal" id="modal">
-		<div class="modal-header">
-		  <div class="modal-header__title">I WILL CALL YOU</div>
-		  <button data-close-button class="close-button">&times;</button>
+<div class="modal" id="modal">
+	<div class="modal-header">
+		<div class="modal-header__title">I'll CALL YOU</div>
+		<button data-close-button class="close-button">&times;</button>
+	</div>
+	<div class="modal-body">
+		
+	<img class="modal-body__img" src="./img/content/house-form-img.png" alt="">
+
+	
+	<form action=""  method="post"  class="appointment-form">
+		<div class="user-name">
+			<div class="form-item">
+				<label for="first-name">First Name</label>
+				<input type="text" placeholder="First Name" name="firstname" id="firstname" required>
+			</div>
+
+			<div class="form-item">
+				<label for="first-name">Last Name</label>
+				<input type="text" placeholder="Last Name" name="lastname" id="lastname" required>
+			</div>
 		</div>
-		<div class="modal-body">
-			<img class="modal-body__img" src="./img/content/house-form-img.png" alt="">
-		  <form action="" class="appointment-form">
-			<input type="text">
-		  </form>
+
+		<div class="user-contacts">
+			<div class="form-item">
+				<label for="first-name">Email Address</label>
+				<input type="email" placeholder="Email Address" name="email" id="email" required>
+			</div>
+
+			<div class="form-item">
+				<label for="first-name">Phone Number</label>
+				<input type="tel" placeholder="Phone Number" name="phone" id="phone" required>
+			</div>
 		</div>
-	  </div>
-	  <div id="overlay"></div>
+
+		<div class="appointment-form__btn">
+			<button> Send my contacts </button>
+		</div> 
+	</form>
+		
+	</div>
+</div>
+
+<div id="overlay"></div>
 
 
 	<section class="house-team">
