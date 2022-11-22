@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./css/normalize.css">
 	<link rel="stylesheet" href="./css/style.css">
-	<title>HOUSE</title>
+	<title>ДОКТОР ХАУС</title>
 </head>
 <body>
 	<header class="header">
@@ -17,12 +17,14 @@
 
 				<nav class="menu">
 				<ul class="menu__list">
-					<li class="menu__item"><a href="" class="menu__link">Home</a></li>
-					<li class="menu__item"><a href="" class="menu__link">Members</a></li>
-					<li class="menu__item"><a href="" class="menu__link">Somethink</a></li>
-					<li class="menu__item"><a href="" class="menu__link">Contacts</a></li>
+					<li class="menu__item"><a href="" class="menu__link">Главная</a></li>
+					<li class="menu__item"><a href="" class="menu__link">Персонал</a></li>
+					<li class="menu__item"><a href="" class="menu__link">Что-то</a></li>
+					<li class="menu__item"><a href="" class="menu__link">Что-то</a></li>
+					<li class="menu__item"><a href="" class="menu__link">Что-то</a></li>
+					<li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
 				</ul>
-				<div class="menu__btn"><button>Request an appointment</button></div> 
+				
 				</nav>
 			</div>
 		</div>
@@ -33,19 +35,22 @@
 		<div class="first-screen__container">
 			<div class="first-screen__inner">
 				<h1 class="first-screen__title">
-					you are idiot!
+					Вы идиот!
 				</h1>
 
 				<h3 class="first-screen__sub-title">
-					But we can fix it..
+					Но мы можем это исправить..
 				</h3>
 
 				<p class="first-screen__text">
-					The grate doctor, who have genius mind. He is ready to fix your problem. Patients don't like him. But they're alive. 
+					Прекрасный врач, обладающий нетипичным умом 
+					и безупречным инстинктом, готов поставить вам диагноз.
+					Он не является любимцем пациентов, да и вам он вряд-ли
+					понравится, но за то.. вы останитесь живы! 
 				</p>
 
 				<div class="first-screen__btn">
-					<button data-modal-target="#modal"> Request an appointment <img src="./img/icon/cane-btn.png" alt=""> </button>
+					<button data-modal-target="#modal">Записаться на приём<img src="./img/icon/cane-btn.png" alt=""> </button>
 				</div> 
 			</div>
 		</div>
@@ -54,7 +59,7 @@
 
 <div class="modal" id="modal">
 	<div class="modal-header">
-		<div class="modal-header__title"><h2>I'll CALL YOU</h2></div>
+		<div class="modal-header__title"><h2>Хаус перезвонит!</h2></div>
 		<button data-close-button class="close-button">&times;</button>
 	</div>
 	<div class="modal-body">
@@ -65,30 +70,30 @@
 		<img class="modal-body__img" src="./img/content/house-form-img.png" alt="">
 		<div class="user-name">
 			<div class="form-item">
-				<label for="first-name">First Name</label>
-				<input type="text" placeholder="First Name" name="firstname" id="firstname" required>
+				<label for="first-name">Имя</label>
+				<input type="text" placeholder="Имя" name="firstname" id="firstname" required>
 			</div>
 
 			<div class="form-item">
-				<label for="first-name">Last Name</label>
-				<input type="text" placeholder="Last Name" name="lastname" id="lastname" required>
+				<label for="first-name">Фамилия</label>
+				<input type="text" placeholder="Фамилия" name="lastname" id="lastname" required>
 			</div>
 		</div>
 
 		<div class="user-contacts">
 			<div class="form-item">
-				<label for="first-name">Email Address</label>
-				<input type="email" placeholder="Email Address" name="email" id="email" required>
+				<label for="first-name">Ваша почта</label>
+				<input type="email" placeholder="Ваша Почта" name="email" id="email" required>
 			</div>
 
 			<div class="form-item">
-				<label for="first-name">Phone Number</label>
-				<input type="tel" placeholder="Phone Number" name="phone" id="phone" required>
+				<label for="first-name">Ваш телефон</label>
+				<input type="tel" placeholder="Ваш телефон" name="phone" id="phone" required>
 			</div>
 		</div>
 
 		<div class="appointment-form__btn">
-			<button>Send my contact</button>
+			<button>Отправить контакты</button>
 		</div>
 	</form>
 	</div>
@@ -99,48 +104,48 @@
 	<section class="house-team">
 		<div class="house-team__container">
 			<div class="house-team__inner">
-				<h2 class="house-team__title">doctor house team:</h2>
+				<h2 class="house-team__title">Команда Хауса:</h2>
 				<div class="members">
 					<div class="members__card">
 						<img class="member-photo" src="./img/content/foreman.png" alt="">
-						<h4 class="member-name"><a class="member-name__link" href="">Eric Foreman</a></h4>
+						<h4 class="member-name"><a class="member-name__link" href="">Эрик Форман</a></h4>
 						<div class="background-name"></div>
-						<a class="learn-more" href="">Learn More.. <img src="./img/icon/cane-btn.png" alt=""></a>
+						<a class="learn-more" href="">Подробнее..<img src="./img/icon/cane-btn.png" alt=""></a>
 					</div>
 
 					<div class="members__card">
 						<img class="member-photo" src="./img/content/hadley.png" alt="">
-						<h4 class="member-name"><a class="member-name__link" href="">Remy Hadley</a></h4>
+						<h4 class="member-name"><a class="member-name__link" href="">Реми Хэдли</a></h4>
 						<div class="background-name"></div>
-						<a class="learn-more" href="">Learn More.. <img src="./img/icon/cane-btn.png" alt=""></a>
+						<a class="learn-more" href="">Подробнее..<img src="./img/icon/cane-btn.png" alt=""></a>
 					</div>
 
 					<div class="members__card">
 						<img class="member-photo" src="./img/content/taub.png" alt="">
-						<h4 class="member-name"><a class="member-name__link" href="">Chris Taub</a></h4>
+						<h4 class="member-name"><a class="member-name__link" href="">Крис Тауб</a></h4>
 						<div class="background-name"></div>
-						<a class="learn-more" href="">Learn More.. <img src="./img/icon/cane-btn.png" alt=""></a>
+						<a class="learn-more" href="">Подробнее..<img src="./img/icon/cane-btn.png" alt=""></a>
 					</div>
 
 					<div class="members__card">
 						<img class="member-photo" src="./img/content/chase.png" alt="">
-						<h4 class="member-name"><a class="member-name__link" href="">Robert Chase</a></h4>
+						<h4 class="member-name"><a class="member-name__link" href="">Роберт Чейз</a></h4>
 						<div class="background-name"></div>
-						<a class="learn-more" href="">Learn More.. <img src="./img/icon/cane-btn.png" alt=""></a>
+						<a class="learn-more" href="">Подробнее..<img src="./img/icon/cane-btn.png" alt=""></a>
 					</div>
 
 					<div class="members__card">
 						<img class="member-photo" src="./img/content/cameron.png" alt="">
-						<h4 class="member-name"><a class="member-name__link" href="">Allison Cameron</a></h4>
+						<h4 class="member-name"><a class="member-name__link" href="">Эллисон Кэмерон</a></h4>
 						<div class="background-name"></div>
-						<a class="learn-more" href="">Learn More.. <img src="./img/icon/cane-btn.png" alt=""></a>
+						<a class="learn-more" href="">Подробнее..<img src="./img/icon/cane-btn.png" alt=""></a>
 					</div>
 
 					<div class="members__card">
 						<img class="member-photo" src="./img/content/kutner.png" alt="">
-						 <h4 class="member-name"><a class="member-name__link" href="">Lawrence Kutner</a></h4>
+						 <h4 class="member-name"><a class="member-name__link" href="">Лоуренс Картнер</a></h4>
 						 <div class="background-name"></div>
-						<a class="learn-more" href="">Learn More.. <img src="./img/icon/cane-btn.png" alt=""></a>
+						<a class="learn-more" href="">Подробнее..<img src="./img/icon/cane-btn.png" alt=""></a>
 					</div>
 				</div>
 			</div>

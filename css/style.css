@@ -46,18 +46,6 @@
 	margin-left: 49px;
 }
 
-.menu__btn button {
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 30px;
-	margin-top: 21px;
-	color: #000000;
-	margin-left: 49px;
-	border: 2px solid #000000;
-	border-radius: 20px;
-	padding: 6px 20px 6px 20px;
-}
-
 
 /* FIRST SCREEN - Introduce */
 
@@ -242,7 +230,7 @@
 }
 
 .appointment-form__btn {
-	max-width: 150px;
+	max-width: 200px;
 	margin: 35px auto;
 }
 
@@ -341,6 +329,7 @@
 
 .learn-more img {
 	transition: 0.3s;
+	margin-left: 5px;
 }
 
 .learn-more img:hover {
