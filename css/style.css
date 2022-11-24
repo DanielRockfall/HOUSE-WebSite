@@ -335,3 +335,65 @@
 .learn-more img:hover {
 	transform: rotate(360deg);
 }
+
+
+
+
+/* HOUSE TEAM PAGE-LIST */
+
+
+.house-team-page {
+	background: #DDDED8;;
+}
+
+.house-team-page__container {
+	max-width: 1190px;
+	padding: 0px 10px 0px 10px;
+	margin: 0 auto;
+}
+
+.house-team-page__inner {
+	padding: 100px 0px 200px 0px;
+}
+
+.house-team-page__title  {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 107px;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+
+.house-team-page__sub-title {
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 53px;
+	max-width: 778px;;
+	color: #000000;
+	padding-bottom: 40px;
+}
+
+
+
+.members__item {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.members-list {
+	display: flex;
+	flex-direction: column;
+}
+
+.members__text {
+	font-weight: 200;
+	font-size: 28px;
+	line-height: 53px;
+	color: #000000;
+    max-height: 316px;
+	margin: auto 60px;
+}
+
