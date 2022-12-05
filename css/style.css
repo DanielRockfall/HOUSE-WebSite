@@ -1,7 +1,7 @@
   /* LOAD FONTS */
  
  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
-
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
   body {
 	font-family: 'Oswald';
 	font-style: normal;
@@ -398,42 +398,86 @@
 }
 /* ----------------------------------------------------------------------------- */
 
+.faq {
+	background: #1F1F1F;
+}
+
+.faq__container {
+	background: url("../img/icon/faq.png") no-repeat 580px 150px;
+	max-width: 1190px;
+	padding: 0px 10px 0px 10px;
+	margin: 0 auto;
+}
+
+.faq__inner {
+	padding: 104px 0px 179px 0px;
+}
+
+.faq__title  {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 40px;
+	color: #fff;
+	padding-bottom: 100px;
+	}
+
 .accordion {
-	background-color: #eee;
-	color: #444;
+	background-color: rgba(238, 238, 238, 0);
 	cursor: pointer;
 	padding: 18px;
 	width: 100%;
 	text-align: left;
-	border: none;
 	outline: none;
 	transition: 0.4s;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 23px;
+	color: #b5b5b5;
+	border-bottom: 0.5px solid #b5b5b5;
+
+
   }
   
   /* Добавить цвет фона для кнопки, если она нажата (добавить .активный класс с JS), а при наведении на него курсора мыши (наведите курсор) */
   .active, .accordion:hover {
-	background-color: #ccc;
+	color: #ffffff;
+	border-bottom: 0.5px solid #ffffff;
+	
+
   }
   
   /* Стиль аккордеон панели. Примечание: скрыто по умолчанию */
 
   .panel {
+	margin: 15px 0px 15px 0px;
 	padding: 0 18px;
-	background-color: white;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
   }
 
+  .panel p {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 118%;
+	color: #FFFFFF;
+  }
 
   .accordion:after {
-	content: '\02795'; /* Символ юникода для "плюса" знак (+) */
+	content: '\2193'; /* Символ юникода для "плюса" знак (+) */
 	font-size: 13px;
-	color: #777;
+	color: #dddddd;
 	float: right;
 	margin-left: 5px;
+
   }
+
   
   .active:after {
-	content: "\2796"; /* Символ юникода для "минуса" знак (-) */
+	content: "\2191"; /* Символ юникода для "минуса" знак (-) */
   }
