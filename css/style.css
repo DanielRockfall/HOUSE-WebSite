@@ -148,7 +148,9 @@
 	color: #030303;
 }
   
-
+.call-input__name {
+	color: #131212;
+}
 
 .modal-header .close-button {
 	cursor: pointer;
@@ -240,7 +242,7 @@
 	font-size: 16px;
 	line-height: 24px;
 	padding: 10px 15px 10px 15px;
-	border: 2px solid #000000;
+	border: 1.5px solid #000000;
 	border-radius: 20px;
 	background-color: rgba(0, 125, 215, 0.0);
 	text-transform: uppercase;
