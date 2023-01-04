@@ -199,7 +199,7 @@
 }
 
 .user-name input {
-	font-size: 14px;
+	font-size: 16px;
 	padding: 5px;
 	width: 160px;
 	height: 40px;
@@ -208,7 +208,7 @@
 }
 
 .user-contacts input {
-	font-size: 14px;
+	font-size: 16px;
 	padding: 5px;
 	width: 336px;
 	height: 40px;
@@ -222,6 +222,7 @@
 }
 
 .form-item label {
+	font-weight: 500;
 	font-size: 16px;
 	margin: 22px 0px 5px 0px;
 }
@@ -415,6 +416,12 @@
 	padding: 104px 0px 179px 0px;
 }
 
+.faq__inner a {
+	color: rgb(119, 119, 119);
+	cursor: pointer;
+}
+
+
 .faq__title  {
 	font-family: 'Roboto';
 	font-style: normal;
@@ -444,42 +451,33 @@
   }
   
   /* Добавить цвет фона для кнопки, если она нажата (добавить .активный класс с JS), а при наведении на него курсора мыши (наведите курсор) */
-  .active, .accordion:hover {
+.active, .accordion:hover {
 	color: #ffffff;
 	border-bottom: 0.5px solid #ffffff;
-	
 
-  }
+}
   
   /* Стиль аккордеон панели. Примечание: скрыто по умолчанию */
 
-  .panel {
+.panel {
 	margin: 15px 0px 15px 0px;
 	padding: 0 18px;
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.2s ease-out;
-  }
+}
 
-  .panel p {
+.panel p {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 118%;
 	color: #FFFFFF;
-  }
+}
 
-  .accordion:after {
-	content: '\2193'; /* Символ юникода для "плюса" знак (+) */
-	font-size: 13px;
-	color: #dddddd;
-	float: right;
-	margin-left: 5px;
 
-  }
-
-  
-  .active:after {
-	content: "\2191"; /* Символ юникода для "минуса" знак (-) */
-  }
+@media (min-width: 1360px) { 
+	body {
+		zoom: 80%; }
+}
