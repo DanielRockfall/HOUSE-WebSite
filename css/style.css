@@ -2,6 +2,10 @@
  
  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+ html {
+	scroll-behavior: smooth;
+ }
   body {
 	font-family: 'Oswald';
 	font-style: normal;
@@ -551,6 +555,9 @@
 	z-index: 0;
 }
 
+
+
+
 	
 .service-name:hover {
 	font-size: 38px;
@@ -558,5 +565,51 @@
 
 .service-name__link  {
 	color: #fff;
+}
+
+
+.footer {
+	background-color: #1F1F1F;; 
+}
+.footer__container {
+	max-width: 1190px;
+	padding: 0px 10px 0px 10px;
+	margin: 0 auto;
+}
+.footer__inner {
+	padding: 56px 0px 65px 0px;
+}
+.info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.info__item {
+	min-width: 373px;
+}
+
+.footer__title {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 38px;
+	line-height: 47px;
+	color: #BABABA;
+	margin-bottom: 50px;
+}
+
+.info-list li {
+	color: #BABABA;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 87.3%;
+	padding-bottom: 20px;
+}
+
+.info-list a {
+	color: #BABABA;
 }
 

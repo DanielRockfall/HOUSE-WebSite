@@ -18,11 +18,10 @@
 				<nav class="menu">
 				<ul class="menu__list">
 					<li class="menu__item"><a href="./index.html" class="menu__link">Главная</a></li>
-					<li class="menu__item"><a href="./team-page.html" class="menu__link">Персонал</a></li>
-					<li class="menu__item"><a href="" class="menu__link">Что-то</a></li>
-					<li class="menu__item"><a href="" class="menu__link">Что-то</a></li>
-					<li class="menu__item"><a href="" class="menu__link">FAQ</a></li>
-					<li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
+					<li class="menu__item"><a href="#house-team-id" class="menu__link">Персонал</a></li>
+					<li class="menu__item"><a href="#house-service-id" class="menu__link">Услуги клиники</a></li>
+					<li class="menu__item"><a href="#faq-id" class="menu__link">FAQ</a></li>
+					<li class="menu__item"><a href="#info-id" class="menu__link">Контакты</a></li>
 				</ul>
 				
 				</nav>
@@ -97,7 +96,7 @@
 	</div>
 </div>
 <div id="overlay"></div>
-	<section class="house-team">
+	<section id="house-team-id" class="house-team">
 		<div class="house-team__container">
 			<div class="house-team__inner">
 				<h2 class="house-team__title">Команда Доктора Хауса:</h2>
@@ -148,7 +147,7 @@
 		</div>
 	</section>
 
-	<section class="faq">
+	<section id = "faq-id" class="faq">
 		<div class="faq__container">
 			<div class="faq__inner">
 				<h2 class="faq__title">Часто задаваемые вопросы</h2>	
@@ -192,7 +191,7 @@
 
 
 
-	<section class="house-service">
+	<section id="house-service-id" class="house-service">
 		<div class="house-service__container">
 			<div class="house-service__inner">
 				<h2 class="house-service__title">ДИАГНОСТИКА И РЕАБИЛИТАЦИЯ:</h2>
@@ -200,43 +199,79 @@
 				<div class="service">
 					<div class="service__card">
 						<img class="service-photo" src="./img/content/MRT.jpg" alt="">
-						<h4 class="service-name"><a class="member-name__link" href="./team-page.html#foreman">МРТ</a></h4>
+						<h4 class="service-name"><a class="member-name__link" href="#">МРТ</a></h4>
 						<div class="service-name__background"></div>
 					</div>
 
 					<div class="service__card">
 						<img class="service-photo" src="./img/content/funcdiagn.jpg" alt="">
-						<h4 class="service-name"><a class="member-name__link" href="./team-page.html#foreman">Диагностика</a></h4>
+						<h4 class="service-name"><a class="member-name__link" href="#">Диагностика</a></h4>
 						<div class="service-name__background"></div>
 					</div>
 
 					<div class="service__card">
 						<img class="service-photo" src="./img/content/electrostimul.jpg" alt="">
-						<h4 class="service-name"><a class="member-name__link" href="./team-page.html#foreman">ЭЛЕКТРОСТИМУЛЯЦИЯ</a></h4>
+						<h4 class="service-name"><a class="member-name__link" href="#">ЭЛЕКТРОСТИМУЛЯЦИЯ</a></h4>
 						<div class="service-name__background"></div>
 					</div>
 
 					<div class="service__card">
 						<img class="service-photo" src="./img/content/tests.jpg" alt="">
-						<h4 class="service-name"><a class="member-name__link" href="./team-page.html#foreman">ТЕСТЫ И АНАЛИЗЫ</a></h4>
+						<h4 class="service-name"><a class="member-name__link" href="#">ТЕСТЫ И АНАЛИЗЫ</a></h4>
 						<div class="service-name__background"></div>
 					</div>
 
 					<div class="service__card">
 						<img class="service-photo" src="./img/content/observe.jpg" alt="">
-						<h4 class="service-name"><a class="member-name__link" href="./team-page.html#foreman">ОСМОТР</a></h4>
+						<h4 class="service-name"><a class="member-name__link" href="#">ОСМОТР</a></h4>
 						<div class="service-name__background"></div>
 					</div>
 
 					<div class="service__card">
 						<img class="service-photo" src="./img/content/uzi.jpg" alt="">
-						<h4 class="service-name"><a class="member-name__link" href="./team-page.html#foreman">УЗИ</a></h4>
+						<h4 class="service-name"><a class="member-name__link" href="#">УЗИ</a></h4>
 						<div class="service-name__background"></div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+
+
+	<footer class="footer">
+		<div class="footer__container">
+			<div class="footer__inner">
+				<div class="info">
+					<div id="info-id" class="info__item">
+					<div class="footer__title"><a href="index.html" class="logo"><img src="./img/icon/logo-gray.png" alt="HOUSE M.D"></a> </div>	
+						<ul class="info-list">
+							<li>Современная диагностика</li>
+							<li>Лучшие специалисты</li>
+							<li>Комплексная помощь</li>
+						</ul>
+					</div>
+
+					<div class="info__item">
+						<div class="footer__title"> <h2 class="timework">Режим работы:</h2></div>
+						<ul class="info-list">
+							<li>Пн-Пт 8:00 - 18:00</li>
+							<li>Сб-Вс 8:00 - 14:00</li>
+							<li> <a href="#">График работы врачей</a></li>
+						</ul>
+					</div>
+
+					<div class="info__item">
+						<div class="footer__title"> <h2 class="contacts">Контакты:</h2></div>
+						<ul class="info-list">
+							<li>Адрес: Принстон-Плейнсборо - Нью-Джерси</li>
+							<li>Телефон: 108-(98)-(55)</li>
+							<li>Почта: house.md@gmail.com</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 	<script src="./js/script.js"></script>
 </body>
 </html>
