@@ -57,6 +57,7 @@
 	background: url('../img/background/first-screen_background.jpg') center no-repeat;
 	background-size: cover;
 }
+
 .first-screen__container {
 	max-width: 1190px;
 	padding: 0px 10px 0px 10px;
@@ -593,7 +594,7 @@
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 38px;
+	font-size: 28px;
 	line-height: 47px;
 	color: #BABABA;
 	margin-bottom: 50px;
@@ -612,4 +613,6 @@
 .info-list a {
 	color: #BABABA;
 }
+
+
 
