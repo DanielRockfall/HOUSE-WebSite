@@ -626,3 +626,46 @@
 
 
 
+ /* АДАПТИВ */
+
+@media (max-width:820px ) {
+
+	.header__inner {
+		padding: 20px 0px 20px 0px;
+		display: block;
+		text-align: center;
+	}
+	
+	
+	.menu {
+		
+		display: flex;
+		justify-content: center;
+		
+	}
+	
+	
+	.menu__list {
+		margin-top: 15px;
+		display: flex;
+		
+	}
+
+	.first-screen {
+		background: url('../img/background/first-screen_background.jpg')  -700px no-repeat;
+		background-size: cover;
+	}
+
+}
+
+@media (max-width:580px ) {
+	.menu__list {
+		
+		display: flex;
+		flex-direction: column;		
+		align-items: center;
+	}
+	.menu__item + .menu__item {
+		margin-left: 0px;
+	}
+}
