@@ -3,21 +3,29 @@
  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
- html {
+ html{
 	scroll-behavior: smooth;
  }
+
   body {
+	
 	font-family: 'Oswald';
 	font-style: normal;
 	font-weight: 400;
   }
 
 
+  .wrapper {
+	overflow: hidden;
+}
+
+
 /* HEADER */
 
 .header {
-	background: #F0F0F0;
+	background: #0c0c0c;	
 }
+
 .header__container {
 	max-width: 1190px;
 	padding: 0px 10px 0px 10px;
@@ -26,7 +34,9 @@
 .header__inner {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
+
 .logo {
 	padding: 20px 0px 23px 0px;
 }
@@ -35,10 +45,10 @@
 }
 
 .menu a {
-	font-weight: 400;
+	font-weight: 200;
 	font-size: 20px;
 	line-height: 41px;
-	color: #000000;
+	color: #d2d3d3;
 }
 
 
@@ -63,32 +73,36 @@
 	padding: 0px 10px 0px 10px;
 	margin: 0 auto;
 }
+
 .first-screen__inner {
-	padding: 317px 0px 346px 0px;
+	padding: 250px 0px 450px 0px;
 }
+
 .first-screen__title  {
 	font-style: normal;
 	font-weight: 500;
 	font-size: 72px;
 	line-height: 107px;
-	color: #000000;
+	color: #d2d3d3;
 	text-transform: uppercase;
 }
+
 .first-screen__sub-title {
 	font-style: normal;
 	font-weight: 300;
 	font-size: 36px;
 	line-height: 53px;
-	color: #000000;
+	color: #d2d3d3;
 }
+
 .first-screen__text {
-	margin-top: 10px;
+	margin-top: 30px;
 	max-width: 576px;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 28px;
 	line-height: 41px;
-	color: #000000;
+	color: #d2d3d3;
 }
 
 .first-screen__btn img {
@@ -103,13 +117,14 @@
 
 
 .first-screen__btn button {
+	color: #d2d3d3;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 30px;
 	padding: 18px 12px 18px 12px;
 	margin-top: 40px;
-	border: 3px solid #000000;
+	border: 2px solid #d2d3d3;
 	border-radius: 20px;
 	background-color: rgba(0, 125, 215, 0.0);
 	text-transform: uppercase;
@@ -124,7 +139,7 @@
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0);
 	transition: 200ms ease-in-out;
-	border: 2px solid rgb(66, 66, 66);
+	border: 2px solid rgb(0, 0, 0);
 	border-radius: 10px;
 	z-index: 10;
 	background-color: rgb(211, 211, 211);
@@ -451,8 +466,6 @@
 	line-height: 23px;
 	color: #b5b5b5;
 	border-bottom: 0.5px solid #b5b5b5;
-
-
   }
   
   /* Добавить цвет фона для кнопки, если она нажата (добавить .активный класс с JS), а при наведении на него курсора мыши (наведите курсор) */
@@ -555,9 +568,6 @@
 	background: rgba(0, 0, 0, 0.81);
 	z-index: 0;
 }
-
-
-
 
 	
 .service-name:hover {
