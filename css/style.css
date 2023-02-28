@@ -625,8 +625,29 @@
 }
 
 
-
  /* АДАПТИВ */
+
+ @media (max-width: 1080px){
+	.first-screen {
+		background: url('../img/background/first-screen_background.jpg')  -500px no-repeat;
+		background-size: cover;
+	}
+
+	.house-team__title {
+		margin-left: 50px;
+	}
+	
+	
+.members {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	}
+
+.members__card {
+	margin: 65px 15px 0px 15px;
+	}
+}
 
 @media (max-width:820px ) {
 
@@ -635,8 +656,9 @@
 		display: block;
 		text-align: center;
 	}
+
 	
-	
+
 	.menu {
 		
 		display: flex;
@@ -658,14 +680,31 @@
 
 }
 
+@media (max-width:690px ) {
+	.house-team__title {
+		margin-left: 50px;
+	}
+}
+
 @media (max-width:580px ) {
+
+	.first-screen {
+		background: url('../img/background/first-screen_background.jpg')  -1000px no-repeat;
+		background-size: cover;
+	}
+
+
 	.menu__list {
-		
 		display: flex;
 		flex-direction: column;		
 		align-items: center;
 	}
+	
 	.menu__item + .menu__item {
 		margin-left: 0px;
+	}
+
+	.house-team__title {
+		font-size: 58px;
 	}
 }
